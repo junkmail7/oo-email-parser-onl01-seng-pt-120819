@@ -9,7 +9,14 @@ class EmailAddressParser
   end
   
   def parse
+<<<<<<< HEAD
     newarray=@emails.split(/, | /).uniq
+=======
+    
+    newarray=@emails.split(' ',', ')
+    
+    
+>>>>>>> a431f0486ad7f3437a46f86ccc117f20df9ea22a
     return newarray
   end
 end
